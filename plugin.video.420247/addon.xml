@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.420247" name="420 24/7" version="1.0" provider-name="somethingelesepromotions">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.1.19"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">420 24/7</summary>
+    <description lang="en">[COLOR green][B]A collection of YouTube Channels regarding medical marijuana.[/B][/COLOR] [COLOR red][B]Please obey all local laws and ordinances.[/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
