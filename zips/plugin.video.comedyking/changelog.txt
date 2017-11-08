@@ -1,0 +1,4 @@
+[B]Version 1.0.0[/B]
+April 3rd 2017 - This is the first version
+[B]Version 1.0.1[/B]
+April 18th 2017 - Added many more listings, fixed thumbnails
