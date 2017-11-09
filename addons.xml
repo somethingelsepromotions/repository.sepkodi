@@ -286,6 +286,22 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.skateboardtv" name="Skateboard TV" version="1.0" provider-name="somethingelsepromotions">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.1.19"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Skateboard TV</summary>
+    <description lang="en">Videos, TV Shows and Movies about Skateboarders and skateboarding.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.slavepit"
 	name="Slave Pit TV"
 	version="1.0.0"
@@ -340,6 +356,22 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Soul Cinema</summary>
     <description lang="en">A collection of blaxploitation movies and television shows.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tattootv" name="Tattoo TV" version="1.0" provider-name="somethingelsepromotions">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.1.19"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Tattoo TV</summary>
+    <description lang="en">Episodes of your favorite Tattoo reality TV shows.</description>
     <platform>all</platform>
   </extension>
 </addon>
